@@ -1,0 +1,40 @@
+{
+    "version": "2.0.0",
+    "command": "cmd",
+    "echoCommand": true,
+    "tasks": [
+        {
+            "label": "ToBach.ssd",
+            "type": "shell",
+            "group": "build",
+            "args": [
+                "/C",
+                "BeebAsm.exe -v -i ToBach.6502 -do ToBach.ssd -opt 2"
+            ],
+            "problemMatcher": {
+                "owner": "6502",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceRoot}"
+                ],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "severity": 3,
+                    "message": 4
+                }
+            }
+        },
+        {
+            "label": "Run 'ToBach.ssd' in Emulator",
+            "type": "shell",
+            "args": [
+                "/C",
+                "BeebEm.exe ToBach.ssd"
+            ],
+            "problemMatcher": [],
+            "group": "test"
+        }
+    ]
+}

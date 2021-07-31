@@ -1,0 +1,12 @@
+17/07/2021 11:08:44 INFO main: starting B-em v-Win32
+17/07/2021 11:08:45 WARNING scsi lun 0: unable to open data file scsi/scsi0.dat: No such file or directory
+17/07/2021 11:08:45 WARNING scsi lun 1: unable to open data file scsi/scsi1.dat: No such file or directory
+17/07/2021 11:08:45 WARNING scsi lun 2: unable to open data file scsi/scsi2.dat: No such file or directory
+17/07/2021 11:08:45 WARNING scsi lun 3: unable to open data file scsi/scsi3.dat: No such file or directory
+17/07/2021 11:08:45 INFO disc: Loading 0 C:\Users\podvi\Dropbox\GitHub\TÙBach\ToBach.ssd ssd
+31/07/2021 19:10:25 INFO main: starting B-em v-Win32
+31/07/2021 19:10:26 WARNING scsi lun 0: unable to open data file scsi/scsi0.dat: No such file or directory
+31/07/2021 19:10:26 WARNING scsi lun 1: unable to open data file scsi/scsi1.dat: No such file or directory
+31/07/2021 19:10:26 WARNING scsi lun 2: unable to open data file scsi/scsi2.dat: No such file or directory
+31/07/2021 19:10:26 WARNING scsi lun 3: unable to open data file scsi/scsi3.dat: No such file or directory
+31/07/2021 19:10:26 INFO disc: Loading 0 C:\Users\podvi\Dropbox\GitHub\TÙBach\ToBach.ssd ssd
